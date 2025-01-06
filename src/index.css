@@ -1,0 +1,221 @@
+ .logo{
+  font-size: 32px;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  font-weight: 700;
+ }
+ nav{
+  background-color: #2b3d4f;
+ }
+ nav li a{
+  padding: 10px !important;
+  text-transform: uppercase;
+  color: white !important;
+  font-weight: 700 !important;
+ }
+ .home-page{
+  background-color: #1abd9c;
+  margin-top: 95px;
+ }
+ .home-image{
+  width: 250px;
+ }
+ .home-page h1{
+  font-size: 38px;
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  font-weight: 700;
+  
+ }
+ .home-page .middle{
+  position: relative;
+ }
+ .home-page .middle::after{
+  content: '';
+  position: absolute;
+  width: 210px;
+  height: 3px;
+  background-color: white;
+  bottom: 0px;
+  left: 50%;
+  transform: translateX(-50%);
+ }
+ .home-page .fa-star{
+  z-index: 10;
+  position: absolute;
+  bottom: 0px;
+  left: 50%;
+  transform: translateX(-50%) translateY(50%);
+   background-color:#1abd9c;
+   padding: 20px;
+   border-radius: 50%;
+ }
+ footer{
+  background-color: #2b3d4f;
+ }
+ .icons .icon{
+  padding: 10px;
+  border-radius: 50%;
+  
+  border: 1px solid white;
+ }
+ .footer-footer{
+  background-color: #19242e;
+ }
+ .active{
+  background-color: #1abd9c !important;
+  padding: 10px !important;
+  border-radius: 10px;
+ }
+ .about-page{
+  background-color: #1abd9c;
+  margin-top: 95px;
+ }
+ .about-page .title{
+  position: relative;
+ }
+ .about-page .title::after{
+  content: '';
+  position: absolute;
+  width: 210px;
+  height: 3px;
+  background-color: white;
+  bottom: 0px;
+  left: 50%;
+  transform: translateX(-50%);
+ }
+ .about-page .fa-star{
+  z-index: 10;
+  position: absolute;
+  bottom: 0px;
+  left: 50%;
+  transform: translateX(-50%) translateY(50%);
+   background-color:#1abd9c;
+   padding: 20px;
+   border-radius: 50%;
+ }
+ .about-page h1{
+  font-size: 38px;
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  font-weight: 700;
+  
+ }
+ /* ============================================== */
+ .portfolio-page{
+  margin-top: 95px;
+ }
+ .portfolio-page .top{
+  position: relative;
+ }
+ .portfolio-page .top::after{
+  content: '';
+  position: absolute;
+  width: 210px;
+  height: 3px;
+  background-color:  #2b3d4f;
+  bottom: 0px;
+  left: 50%;
+  transform: translateX(-50%);
+ }
+ .portfolio-page .fa-star{
+  z-index: 10;
+  position: absolute;
+  bottom: 0px;
+  left: 50%;
+  color: #2b3d4f !important;
+  transform: translateX(-50%) translateY(50%);
+   background-color:#ffffff;
+   padding: 20px;
+   border-radius: 50%;
+ }
+  
+ .portfolio-page h1{
+  font-size: 38px;
+  color: #2b3d4f;
+  text-transform: uppercase;
+  font-weight: 700;
+  
+ }
+ .portfolio-page .box .inner{
+  position: relative;
+ }
+   .img-hover{ position: absolute;
+  inset: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: opacity 0.6s;
+  background-color: #1abd9c9d;}
+ 
+   .img-hover .fa-plus{
+    color: white;
+    font-size: 100px;
+  }
+  .portfolio-page .box .inner:hover{
+    cursor: pointer;
+  }
+  .portfolio-page .box .inner:hover .img-hover{
+    opacity: 1;
+  }
+  /* ===================================================== */
+.contact-page{
+  margin-top:95px ;
+}
+
+  .contact-page .top{
+    position: relative;
+   }
+   .contact-page .top::after{
+    content: '';
+    position: absolute;
+    width: 210px;
+    height: 3px;
+    background-color:  #2b3d4f;
+    bottom: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+   }
+   .contact-page .fa-star{
+    z-index: 10;
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    color: #2b3d4f !important;
+    transform: translateX(-50%) translateY(50%);
+     background-color:#ffffff;
+     padding: 20px;
+     border-radius: 50%;
+   }
+    
+   .contact-page h1{
+    font-size: 38px;
+    color: #2b3d4f;
+    text-transform: uppercase;
+    font-weight: 700;
+    
+   }
+
+   input{
+    border: none;
+    border-radius: 10px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.219);
+    padding: 15px 10px;
+     
+   }
+   input:focus{
+    outline: none;
+   }
+   .contact-page button{
+    background-color: #1abd9c;
+    padding: 8px;
+    color: white;
+    border-radius: 7px;
+    border: none;
+   }
+   .notfound-page{
+    margin-top: 95px;
+   }
+   
+  
